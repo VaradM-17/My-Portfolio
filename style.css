@@ -87,3 +87,94 @@ li a:hover::before {
     font-size: 2rem;
     display: none;
 }
+
+/* About Section */
+.section {
+    min-width: 100vh;
+    padding: 12rem 12%;
+    width: 100%;
+    position: relative;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+.about .about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9rem;
+}
+
+.about img {
+    width: 25vw;
+    border-radius: 50%;
+}
+
+.info-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.info-box h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.info-box h1 {
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.info-box span {
+    background: linear-gradient(to right, rgb(255, 0, 255), rgb(0, 157, 255));
+    background-clip: text;
+    color: transparent;
+    font-size: 2rem;
+}
+
+.btn-group {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    border-radius: 3rem;
+    padding: 0.5rem 1.5rem;
+    border: 2px solid black;
+    cursor: pointer;
+    font-weight: 500;
+    text-wrap: nowrap;
+    transition: 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.socials {
+    display: flex;
+    gap: 2rem;
+}
+
+.socials i {
+    font-size: 2.5rem;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.socials i:hover {
+    transform: scale(1.1);
+}
