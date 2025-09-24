@@ -27,14 +27,14 @@ const ContactForm = () => {
             errors={state.errors}
           />
         </Form.Group>
-        <Form.Group className="mb-3 col-lg-6" controlId="secondName">
+        <Form.Group className="mb-3 col-lg-6" controlId="lastName">
           <Form.Label className="w-100 text-start text-capitalize">
-            Second name
+            Last name
           </Form.Label>
-          <Form.Control type="text" name="secondName" required />
+          <Form.Control type="text" name="lastName" required />
           <ValidationError
-            prefix="Second Name"
-            field="secondName"
+            prefix="Last Name"
+            field="lastName"
             errors={state.errors}
           />
         </Form.Group>
