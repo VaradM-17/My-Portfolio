@@ -1,0 +1,87 @@
+@import "./variables";
+@import "./mixins";
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+$font-family-sans-serif: "Poppins", sans-serif;
+$font-family-base: $font-family-sans-serif;
+
+// Primary color
+$primary: #6b33e6;
+
+// Import Bootstrap after overrides
+@import "./bootstrap/scss/bootstrap.scss";
+
+.navbar-brand {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 2.5rem;
+}
+
+.h1-font {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 5.7rem;
+  @include extra-large {
+    font-size: 5rem;
+  }
+  @include large {
+    font-size: 4rem;
+  }
+}
+
+.h2-font {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 5.7rem;
+  @include extra-large {
+    font-size: 4rem;
+  }
+}
+
+.h3-font {
+  font-size: 3rem;
+  @include extra-large {
+    font-size: 2rem;
+  }
+}
+
+.header-img {
+  width: 480px;
+  height: 470px;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+.card {
+  overflow-x: hidden;
+
+  .card-img-top {
+    transition: all 0.3s;
+
+    &:hover {
+      cursor: pointer;
+      scale: 1.1;
+      opacity: 0.75;
+      transition: all 0.3s;
+    }
+  }
+}
+
+.project-card {
+  max-width: 22rem;
+  margin: auto;
+}
+
+.project-card-img {
+  height: 180px;
+  object-fit: cover;
+}
+
+@media (max-width: 576px) {
+  .mt-3 {
+    margin-top: 0px !important;
+    margin-bottom: 2rem !important;
+  }
+
+  .header-img {
+    width: 100%;
+    height: auto;
+  }
+}
