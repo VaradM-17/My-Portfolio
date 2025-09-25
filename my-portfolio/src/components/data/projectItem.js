@@ -9,7 +9,7 @@ const projectItem = [
     projectTitle: "Employee Management System",
     projectDescription:
       "A full-stack Employee Management System built with Spring Boot and React. Manage employees by adding, editing, or deleting records. Features search, filter, and secure authentication.",
-    link: "https://github.com/yourusername/employee-management",
+    link: "https://github.com/VaradM-17/Emplyfi",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const projectItem = [
     projectTitle: "Todo Management System",
     projectDescription:
       "A simple task manager built with Spring Boot and React. Add, update, and track todos easily. Supports marking tasks complete and user authentication.",
-    link: "https://github.com/yourusername/todo-management",
+    link: "https://github.com/VaradM-17/Todooz",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const projectItem = [
     projectTitle: "Blog Management System",
     projectDescription:
       "A blog management app built with Spring Boot and React. Create, edit, and delete posts with authentication. Includes comment functionality for registered users.",
-    link: "https://github.com/yourusername/blog-management",
+    link: "https://github.com/VaradM-17/my-blog-app",
   },
 ];
 
