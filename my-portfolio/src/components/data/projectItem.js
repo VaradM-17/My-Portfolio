@@ -10,7 +10,7 @@ const projectItem = [
     projectImage: project1,
     projectTitle: "Employee Management System",
     projectDescription:
-      "A full-stack Employee Management System built with Spring Boot and React. Manage employees by adding, editing, or deleting records. Features search, filter, and secure authentication.",
+      "A complete system to manage employee records. Add, update, or remove employees, filter and search by department or role, and view detailed profiles to keep everything organized and accessible.",
     link: "https://github.com/VaradM-17/Emplyfi",
   },
   {
@@ -18,7 +18,7 @@ const projectItem = [
     projectImage: project2,
     projectTitle: "Todo Management System",
     projectDescription:
-      "A simple task manager built with Spring Boot and React. Add, update, and track todos easily. Supports marking tasks complete and user authentication.",
+      "An organized task management tool. Create, update, and mark tasks as complete, track pending and finished tasks, and maintain a clear and structured daily workflow.",
     link: "https://github.com/VaradM-17/Todooz",
   },
   {
@@ -26,7 +26,7 @@ const projectItem = [
     projectImage: project3,
     projectTitle: "Blog Management System",
     projectDescription:
-      "A blog management app built with Spring Boot and React. Create, edit, and delete posts with authentication. Includes comment functionality for registered users.",
+      "Manage blog content efficiently. Create, edit, and delete posts, allow users to comment, and keep content organized for better interaction and engagement.",
     link: "https://github.com/VaradM-17/my-blog-app",
   },
   {
@@ -34,15 +34,15 @@ const projectItem = [
     projectImage: project4,
     projectTitle: "Smart Email – AI-Powered Email Reply System",
     projectDescription:
-      "AI-powered email reply system built with Spring Boot and React, using Google Gemini API to generate smart replies with multiple tone options.",
+      "Automate email responses with multiple tone options. Generate replies quickly, save time, reduce manual effort, and enhance overall communication efficiency.",
     link: "https://github.com/VaradM-17/SmartMail",
   },
   {
     id: 5,
     projectImage: project5,
-    projectTitle: "Account Management System (Backend)",
+    projectTitle: "Account Management System",
     projectDescription:
-      "A backend system built with Spring Boot for managing bank-style accounts. Supports creating accounts, depositing and withdrawing funds, retrieving account details, and deleting accounts securely via REST APIs.",
+      "Easily manage accounts with full control. Create accounts, deposit and withdraw funds, view details, and delete accounts securely, keeping all operations organized and reliable.",
     link: "https://github.com/VaradM-17/Accto",
   },
 ];
